@@ -30,3 +30,7 @@ GitHub Free는 공개 저장소에서 Pages를 제공합니다.
 ## English version
 
 `en.html` provides an English translation of all ten pages, with translated architecture flows and comparison tables. Use the language link in the toolbar to switch while keeping the current page. App screenshots show the original Korean UI. The PDF download remains the original Korean PDF. The English HTML text supports selection and browser search.
+
+### Architecture figures
+
+The English version reuses the two original system architecture images and eleven figures exported from the supplied diagram PowerPoint, including translated native labels and charts with unchanged numerical data. Four English SVGs reproduce the logic of image-only flows. Figures link to their full-size assets. Sources are kept outside the public repository; only web assets are published.
