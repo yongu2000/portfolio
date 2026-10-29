@@ -26,3 +26,7 @@ GitHub Free는 공개 저장소에서 Pages를 제공합니다.
 - portfolio.pdf: 변경하지 않은 원본
 
 외부 CDN이나 서버 API를 사용하지 않으며 프로젝트 저장소 하위 URL에서도 동작하도록 상대 경로를 사용합니다.
+
+## English version
+
+`en.html` provides an English translation of all ten pages, with translated architecture flows and comparison tables. Use the language link in the toolbar to switch while keeping the current page. App screenshots show the original Korean UI. The PDF download remains the original Korean PDF. The English HTML text supports selection and browser search.

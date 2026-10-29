@@ -1,0 +1,27 @@
+.english-body { padding: 56px 64px 26px; font-size: 15px; line-height: 1.65; overflow-wrap: anywhere; }
+.english-body h1 { font-size: 27px; line-height: 1.2; letter-spacing: -.5px; margin: 0 0 16px; font-weight: 650; }
+.english-body h2 { margin: 30px 0 12px; padding-bottom: 7px; border-bottom: 1px solid #222; font-size: 17px; line-height: 1.4; font-weight: 650; }
+.english-body h3 { font-size: 15px; font-weight: 650; margin: 20px 0 7px; }
+.english-body p { margin: 10px 0; }
+.english-body .period, .english-body .subtitle { color: #777; margin-top: -4px; }
+.english-body .repo { color: #555; font-size: 13px; text-underline-offset: 3px; }
+.english-body ul, .english-body ol { padding-left: 22px; margin: 10px 0; }
+.english-body li { padding-left: 2px; margin: 6px 0; }
+.english-body code { font-family: Consolas, "SFMono-Regular", monospace; font-size: .88em; background: #f4f4f3; padding: 1px 3px; border-radius: 2px; }
+.english-body pre { margin: 14px 0; padding: 12px; background: #f4f4f3; white-space: pre-wrap; }
+.english-body pre code { padding: 0; }
+.english-body .caption { font-size: 13px; color: #666; line-height: 1.6; }
+.flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 18px 0; font-size: 12px; line-height: 1.5; }
+.flow span { padding: 10px 12px; border: 1px solid #d5d8d7; background: #fafbfa; max-width: 100%; }
+.flow b { color: #888; font-weight: 400; }
+.table-scroll { margin: 16px 0; }
+.english-body table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; table-layout: fixed; }
+.english-body th, .english-body td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid #ddd; }
+.english-body th { font-weight: 600; }
+.english-body thead { background: #f4f4f2; }
+.english-body .page-number { margin-top: 30px; text-align: center; font-size: 11px; color: #999; }
+@media (max-width: 660px) { .english-body { padding: 28px 22px 20px; font-size: 14px; line-height: 1.7; } .english-body h1 { font-size: 24px; } .english-body h2 { font-size: 17px; } .english-body th, .english-body td { padding: 8px 6px; font-size: 12px; } .flow { font-size: 12px; gap: 6px; } .flow span { padding: 8px; } }
+@media print { .english-body { padding: 30px; font-size: 11pt; } .english-body h1 { font-size: 21pt; } .english-body h2 { break-after: avoid; } .english-body table, .flow { break-inside: avoid; } @page { size: A4; margin: 12mm; } }
+.app-shots { display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; gap: 24px; margin: 26px 0; }
+.app-shots img { display: block; width: 150px; max-width: 42%; height: auto; }
+.app-shots figcaption { flex-basis: 100%; text-align: center; font-size: 12px; color: #888; }

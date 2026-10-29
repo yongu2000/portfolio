@@ -45,3 +45,7 @@ footer a { text-underline-offset: 4px; }
   .sheet:last-child { break-after: auto; }
   @page { size: 540pt 959.811pt; margin: 0; }
 }
+
+.language-switch { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; color: #666; text-decoration: none; white-space: nowrap; }
+@media (max-width: 660px) { nav { gap: 14px; } select { width: 62px; } }
+@media (max-width: 380px) { .toolbar-inner { padding: 0 12px; gap: 8px; } .identity { font-size: 12px; } nav { gap: 10px; } select { width: 56px; } select, button, .download, .language-switch { font-size: 12px; } }
